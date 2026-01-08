@@ -63,11 +63,7 @@ header {
   padding: 15px 20px;
   font-family: var(--body-font);
 }
-header.scrolled {
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(6px);
-}
+
 header:hover {
   background: #fff;
 }
@@ -80,13 +76,7 @@ header:hover nav ul li.active a {
   border-bottom: 2px solid hsl(var(--orange-primary-color)/0.8);
 }
 
-header.scrolled nav ul li a {
-  color: #3a2b20;
-}
 
-header.scrolled:hover nav ul li a {
-  color: hsl(var(--orange-primary-color)/0.8);
-}
 .navigation {
   max-width: 1200px;
   margin: auto;
